@@ -1,38 +1,74 @@
 .App {
   text-align: center;
+  margin: 20px;
+  width: 500px;
+}
+.text{
+  width: 480px;
+  height:150px;
+  margin-left:10px;
+  margin-right:23px;
+}
+.en{
+  width: 600px;
+  height: 20px;
+
+}
+.sub{
+  width: 475px;
+  height: 30px;
+}
+.bulk{
+  background-color:   #5bdbb1;
+}
+.to{
+  width: 500px;
+margin-left: 80px;
+display: flex;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Subject{
+  margin-left: 45px;
+display: flex;
+
+}
+.mail{
+margin-left:200px ;
+background-color: #695e82;
+height: 400px;
+width: 800px;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.email-input,
+.subject-input,
+.email-text {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.send-button {
+  background-color: #007bff;
+  color: #c5d15d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.send-button:hover {
+  background-color: #0056b3;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-button {
+  background-color: #2d7db2;
+  color: #fff;
+  padding: 10px 10px;
+  cursor: pointer;
 }
